@@ -6,11 +6,16 @@
   "scripts": {
     "start": "node server.js"
   },
-  "keywords": ["swagger", "api"],
+  "keywords": [
+    "swagger",
+    "api"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "cookie-parser": "^1.4.7",
     "express": "^4.18.2",
+    "sqlite3": "^5.1.7",
     "swagger-ui-express": "^5.0.1"
   }
 }
